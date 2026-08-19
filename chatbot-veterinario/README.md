@@ -25,9 +25,21 @@ Fluxo completo — cadastro, agendamento e confirmação, direto pelo WhatsApp:
 
 <sub>*Conversa simulada com dados fictícios, reproduzindo o fluxo real do bot.*</sub>
 
-| Cadastro do tutor | Menu e escolha de data | Confirmação do exame |
+| Cadastro do tutor | Cadastro de clínica | Menu principal |
 |---|---|---|
-| ![Cadastro](docs/demo/01_cadastro.png) | ![Menu](docs/demo/02_menu_agendamento.png) | ![Confirmação](docs/demo/03_confirmacao.png) |
+| ![Cadastro tutor](docs/demo/01_cadastro_tutor.png) | ![Cadastro clínica](docs/demo/02_cadastro_clinica.png) | ![Menu principal](docs/demo/03_menu_principal.png) |
+
+| Escolha de data/horário | Ficha e confirmação | Agendar 2 exames |
+|---|---|---|
+| ![Data e horário](docs/demo/04_agendar_data_horario.png) | ![Ficha e confirmação](docs/demo/05_ficha_e_confirmacao.png) | ![2 exames](docs/demo/06_agendar_dois_exames.png) |
+
+| Reagendar | Cancelar | Falar com atendente |
+|---|---|---|
+| ![Reagendar](docs/demo/07_reagendar.png) | ![Cancelar](docs/demo/08_cancelar.png) | ![Falar com atendente](docs/demo/09_falar_atendente.png) |
+
+Lembrete automático enviado 1 dia antes do exame:
+
+![Lembrete automático](docs/demo/10_lembrete.png)
 
 Painel administrativo (Flask) usado pela clínica para controlar o WAHA
 e acompanhar os agendamentos — captura real da tela:
