@@ -13,7 +13,7 @@ Sheets em tempo real.
 ---
 
 📄 **Quer ver mensagem por mensagem como cada opção do menu funciona?**
-Confira [docs/FUNCIONAMENTO.md](docs/FUNCIONAMENTO.md) — o passo a passo
+Confira [docs/FUNCIONAMENTO.md](chatbot-veterinario/docs/FUNCIONAMENTO.md) — o passo a passo
 completo das opções 1 a 5, com as mensagens reais trocadas entre bot e
 cliente.
 
@@ -21,30 +21,30 @@ cliente.
 
 Fluxo completo — cadastro, agendamento e confirmação, direto pelo WhatsApp:
 
-![Demonstração da conversa no WhatsApp](docs/demo/demo_conversa.gif)
+![Demonstração da conversa no WhatsApp](chatbot-veterinario/docs/demo/demo_conversa.gif)
 
 <sub>*Conversa simulada com dados fictícios, reproduzindo o fluxo real do bot.*</sub>
 
 | Cadastro do tutor | Cadastro de clínica | Menu principal |
 |---|---|---|
-| ![Cadastro tutor](docs/demo/01_cadastro_tutor.png) | ![Cadastro clínica](docs/demo/02_cadastro_clinica.png) | ![Menu principal](docs/demo/03_menu_principal.png) |
+| ![Cadastro tutor](chatbot-veterinario/docs/demo/01_cadastro_tutor.png) | ![Cadastro clínica](chatbot-veterinario/docs/demo/02_cadastro_clinica.png) | ![Menu principal](chatbot-veterinario/docs/demo/03_menu_principal.png) |
 
 | Escolha de data/horário | Ficha e confirmação | Agendar 2 exames |
 |---|---|---|
-| ![Data e horário](docs/demo/04_agendar_data_horario.png) | ![Ficha e confirmação](docs/demo/05_ficha_e_confirmacao.png) | ![2 exames](docs/demo/06_agendar_dois_exames.png) |
+| ![Data e horário](chatbot-veterinario/docs/demo/04_agendar_data_horario.png) | ![Ficha e confirmação](chatbot-veterinario/docs/demo/05_ficha_e_confirmacao.png) | ![2 exames](chatbot-veterinario/docs/demo/06_agendar_dois_exames.png) |
 
 | Reagendar | Cancelar | Falar com atendente |
 |---|---|---|
-| ![Reagendar](docs/demo/07_reagendar.png) | ![Cancelar](docs/demo/08_cancelar.png) | ![Falar com atendente](docs/demo/09_falar_atendente.png) |
+| ![Reagendar](chatbot-veterinario/docs/demo/07_reagendar.png) | ![Cancelar](chatbot-veterinario/docs/demo/08_cancelar.png) | ![Falar com atendente](chatbot-veterinario/docs/demo/09_falar_atendente.png) |
 
 Lembrete automático enviado 1 dia antes do exame:
 
-![Lembrete automático](docs/demo/10_lembrete.png)
+![Lembrete automático](chatbot-veterinario/docs/demo/10_lembrete.png)
 
 Painel administrativo (Flask) usado pela clínica para controlar o WAHA
 e acompanhar os agendamentos — captura real da tela:
 
-![Painel administrativo](docs/demo/04_painel_admin.png)
+![Painel administrativo](chatbot-veterinario/docs/demo/04_painel_admin.png)
 
 <sub>*Aba "Inicialização" — inicia/desliga o container do WAHA e abre o
 link local. As demais abas cuidam de agendamentos do dia, cancelados e
@@ -118,3 +118,4 @@ veja [LICENSE](LICENSE) para os termos completos.
 
 Interessado no projeto ou em algo parecido para o seu negócio? Entre em
 contato.
+
